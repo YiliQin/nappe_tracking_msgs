@@ -9,8 +9,8 @@ find_package(catkin REQUIRED COMPONENTS
 add_message_files(
   DIRECTORY msgs
   FILES
-	TrackingResult.msg
-	TrackingCmd.msg
+	TrackResult.msg
+	TrackPostConfig.msg
 )
 
 generate_messages(DEPENDENCIES
